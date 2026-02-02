@@ -8,7 +8,7 @@ int main(){
     IntParam p1, p2, p3;
     int x = 20, y = 45, r, exponent;
     float f1, f2, f3, base, result;
-    double d1, d2;
+    
 
 // 1. Bernaola Gayoso - César Raúl
     std::cout << "Demo Bernaola Gayoso Cesar" << std::endl;
@@ -25,8 +25,8 @@ int main(){
 // 3. Diaz Tapia Adderly
 // substraction
     std::cout << "Demo Adderly Díaz Tapia" << std::endl;
-    Ts d1 = 10.1; d2=7.2;
-    std::cout<<"La resta es: " << subtraction(d1, d2) << "\n\n";
+    Ts d1 = 10.1, d2=7.2;
+    std::cout<<"La diferencia entre"<< d1<< "y"<< d2 << "es:"<< subtraction(d1, d2) << "\n\n";
 
 // 4. Lopez Flores Royer Amed
 // multiplication
