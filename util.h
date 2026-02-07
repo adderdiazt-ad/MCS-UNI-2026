@@ -13,6 +13,13 @@ template <>
 IntParam addition(IntParam a, IntParam b);
 
 // 2. Cuadros-Vargas Ernesto
+/** Esta funcion es parta intercambiar
+ * dos elementos de cualquier tipo
+ * Parametros:
+ * a: primer elemento
+ * b: segundo elemento
+ * Comentario para Doxygen:
+**/
 template <typename T>
 void intercambiar(T &a, T &b){
     T tmp = a;
