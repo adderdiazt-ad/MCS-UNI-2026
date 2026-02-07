@@ -160,7 +160,7 @@ void DemoInicialCuadrosVargas(){
 
 
 // 3. Diaz Tapia Adderly
-DemoInicialDiazTapia(){
+void DemoInicialDiazTapia(){
     std::cout << "Demo Adderly Díaz Tapia" << std::endl;
     Ts a1 = 10.1, a2=7.2;
     std::cout<<"La resta es: " << subtraction(a1, a2) << "\n\n";
